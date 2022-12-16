@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+input::file-selector-button {
+    padding: 2rem;
+    }
+input{
+   visibility: hidden;
+}
+.image-upload svg{
+    font-size: 50px;
+    color: red;
+    padding: 100px;
+    background-color: #d6d5d5;
+    border-radius: 14px;
+}
+.menu{
+    width: 100vw;
+    height: 50px;
+    background-color: red;
+}
+header{
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95vh;
+    width: 75%;
+    margin: auto;
+}
+.info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    height: 65%;
+}
+.image-upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image-upload .bg{
+    padding: 5%;
+    border: 10px;
+    box-shadow: 2px 2px #88888830;
+    border-radius: 10%;
+}
+img {
+    border-radius: 10px;
+}
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    height: 100%;
+    padding: 0;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li svg{
+    margin-right: 19px;
+    color: red;
+    font-size: 40px;
+}
+p{
+    font-size: 21px;
+}
+h1{
+    font-size: 31px;
+}
+
+@media only screen and (max-width: 1000px) {
+    header {
+      flex-direction: column;
+    }
+    .info {
+        width: 87%;
+        text-align: center;
+    }
+    ul{
+        align-items: center;
+    }
+    h1{
+        font-size: 25px;
+        line-height: 1.5;
+    }
+    p{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    li{
+        font-size: 16px;
+    }
+  }
