@@ -84,6 +84,7 @@ h1{
 @media only screen and (max-width: 1000px) {
     header {
       flex-direction: column;
+      margin-top: 79px;
     }
     .info {
         width: 87%;
@@ -102,5 +103,8 @@ h1{
     }
     li{
         font-size: 16px;
+    }
+    .image-upload{
+        margin-top: 20px;
     }
   }
