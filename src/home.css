@@ -22,7 +22,6 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 95vh;
     width: 75%;
     margin: auto;
 }
@@ -84,7 +83,7 @@ h1{
 @media only screen and (max-width: 1000px) {
     header {
       flex-direction: column;
-      margin-top: 79px;
+      width: 90%;
     }
     .info {
         width: 87%;
@@ -104,7 +103,5 @@ h1{
     li{
         font-size: 16px;
     }
-    .image-upload{
-        margin-top: 20px;
-    }
+
   }
